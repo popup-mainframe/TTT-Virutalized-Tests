@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Tests/Stubs/COBCALC_COBLOAN_01.stub" stubtype="Program" target="COBLOAN" token="10000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Oct 23, 2023 7:18:16 AM</stub:description>
+  <stub:stubdata id="0" name="COBLOAN">
+    <stub:interface>../Interfaces/COBCALC_COBLOAN.interface#Tests/Interfaces/COBCALC_COBLOAN.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/COBCALC_COBLOAN.interface#Tests/Interfaces/COBCALC_COBLOAN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/COBCALC_COBLOAN_CALL-FEEDBACK.listructure#Tests/Structures/COBCALC_COBLOAN_CALL-FEEDBACK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/COBCALC_COBLOAN_CALL-FEEDBACK.listructure#CALL_FEEDBACK" id="arg0.CALL_FEEDBACK">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+          <properties:property name="address" type="string">200DE278</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/COBCALC_COBLOAN_CALL-FEEDBACK.listructure#Tests/Structures/COBCALC_COBLOAN_CALL-FEEDBACK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/COBCALC_COBLOAN_CALL-FEEDBACK.listructure#CALL_FEEDBACK" id="arg0.CALL_FEEDBACK">
+        <properties:properties>
+          <properties:property name="value" type="string">D6D2</properties:property>
+          <properties:property name="address" type="string">200DE278</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/COBCALC_COBLOAN_RETURN-CODE.listructure#Tests/Structures/COBCALC_COBLOAN_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/COBCALC_COBLOAN_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

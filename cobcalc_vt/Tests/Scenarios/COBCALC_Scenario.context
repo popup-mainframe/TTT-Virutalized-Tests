@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="653232b3912e621dfc06e52e" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="COBCALC" caseInsensitiveCompare="false" path="COBCALC_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="COBCALC_Scenario.testscenario" moduleName="COBCALC" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>
